@@ -5,10 +5,7 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 void main(void){
-	char src[] = "The Worst Things to Eat Before You Sleep";
-	char dst[100];
+	char str[30] = "happy C programming";
 	
-	strcpy(dst,src);
-	
-	printf("copied string : %s", dst);
+	printf("%s : %i\n", str, strlen(str));
 }
